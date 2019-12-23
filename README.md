@@ -1,4 +1,4 @@
-# Barbershop Sweeney Todd - landing page
+# :scissors: Barbershop Sweeney Todd - landing page
 
 ## Website Live
 
