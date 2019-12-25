@@ -16,7 +16,7 @@
   src: local("Kanit Regular"), local("Kanit-Regular"),
     url("../fonts/kanit-v5-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/kanit-v5-latin-regular.woff") format("woff");
+      url("../fonts/kanit-v5-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -28,7 +28,7 @@
   src: local("Kanit Medium"), local("Kanit-Medium"),
     url("../fonts/kanit-v5-latin-500.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/kanit-v5-latin-500.woff") format("woff");
+      url("../fonts/kanit-v5-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -40,7 +40,7 @@
   src: local("Kanit SemiBold"), local("Kanit-SemiBold"),
     url("../fonts/kanit-v5-latin-600.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/kanit-v5-latin-600.woff") format("woff");
+      url("../fonts/kanit-v5-latin-600.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -50,10 +50,8 @@ $black-color: #101010;
 $dark-color: #131313;
 $grey-color: #777;
 
-$primary-font: "Kanit",
-sans-serif;
-$secondary-font: "Georgia",
-serif;
+$primary-font: "Kanit", sans-serif;
+$secondary-font: "Georgia", serif;
 
 /*--------------------------------------------------------------
 0.0 CORE
@@ -405,7 +403,7 @@ picture {
   height: 596px;
   content: "";
   position: absolute;
-  background: url('../img/skull.jpg');
+  background: url("https://cirocki.github.io/Barbershop-Landing-Page/src/img/skull.jpg");
   z-index: -2;
   left: -15rem;
   top: -20rem;
@@ -758,7 +756,7 @@ picture {
 
   .services__bot {
     grid-template-columns: 1fr;
-    grid-template-areas: "prices""desc";
+    grid-template-areas: "prices" "desc";
   }
 
   .services__bot__prices {
@@ -899,7 +897,6 @@ picture {
 }
 
 @media (max-width: 639px) {
-
   .banner-title,
   .banner-subtitle {
     display: none;
@@ -1022,7 +1019,7 @@ picture {
 @media (max-width: 939px) {
   .contact__wrapper {
     grid-template-columns: 3fr 2fr;
-    grid-template-areas: "info hours""links links";
+    grid-template-areas: "info hours" "links links";
   }
 
   .more-links {
@@ -1037,7 +1034,7 @@ picture {
 @media (max-width: 789px) {
   .contact__wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "info hours"" links links";
+    grid-template-areas: "info hours" " links links";
   }
 }
 
@@ -1048,7 +1045,7 @@ picture {
 
   .contact__wrapper {
     grid-template-columns: 1fr;
-    grid-template-areas: "info""hours""links";
+    grid-template-areas: "info" "hours" "links";
   }
 
   .contact-socials {
