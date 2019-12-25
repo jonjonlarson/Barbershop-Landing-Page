@@ -14,6 +14,10 @@ I also tried to combine the dark, bloody atmosphere with the elegance of London.
 
 A bit of fun with pseudo-elements and absolute positioning. I used some new GSAP 3 features with ScrollMagic JS library.
 
+## 
+
+![Website screen](https://raw.githubusercontent.com/cirocki/Barbershop-Landing-Page/master/src/img/Sweeney%20Todd%20Barber%20Website.jpg)
+
 ## Photos
 
 Photos by Thgusstavo Santana, Mídia, David Jakab, Nick Demou, Mitja Juraja from pexels.com.
