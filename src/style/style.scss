@@ -815,10 +815,10 @@ picture {
 
 .products__content li {
   margin: 2rem;
+  overflow: hidden;
 }
 
 .products-item {
-  overflow-x: hidden;
   display: block;
   color: $white-color;
   font-family: $secondary-font;

@@ -868,10 +868,10 @@ picture {
 
 .products__content li {
   margin: 2rem;
+  overflow: hidden;
 }
 
 .products-item {
-  overflow-x: hidden;
   display: block;
   color: #fff;
   font-family: "Georgia", serif;
