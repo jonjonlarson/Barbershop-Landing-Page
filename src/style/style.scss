@@ -818,7 +818,7 @@ picture {
 }
 
 .products-item {
-  overflow: hidden;
+  overflow-x: hidden;
   display: block;
   color: $white-color;
   font-family: $secondary-font;
