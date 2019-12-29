@@ -871,6 +871,7 @@ picture {
 }
 
 .products-item {
+  overflow: hidden;
   display: block;
   color: #fff;
   font-family: "Georgia", serif;
