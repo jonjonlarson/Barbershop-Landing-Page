@@ -857,6 +857,7 @@ picture {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .products-heading {
@@ -868,7 +869,6 @@ picture {
 
 .products__content li {
   margin: 2rem;
-  overflow: hidden;
 }
 
 .products-item {

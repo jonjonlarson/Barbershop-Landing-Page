@@ -804,6 +804,7 @@ picture {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .products-heading {
@@ -815,7 +816,6 @@ picture {
 
 .products__content li {
   margin: 2rem;
-  overflow: hidden;
 }
 
 .products-item {
