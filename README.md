@@ -20,7 +20,7 @@ A bit of fun with pseudo-elements and absolute positioning. I used some new GSAP
 
 ## Review
 
-Tyler Potts - one of my favourite 'Dev YouTubers' reviews this website live:
+Tyler Potts - one of my favourite 'Dev YouTubers' reviewed this website on live stream:
 
 https://youtu.be/_4hTCtSEY2k?t=621
 
