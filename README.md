@@ -12,9 +12,9 @@ I also tried to combine the dark, bloody atmosphere with the elegance of London.
 
 ## Coding
 
-A bit of fun with pseudo-elements and absolute positioning. I used some new GSAP 3 features with ScrollMagic JS library.
+A bit of fun with pseudo-elements and absolute positioning. I used some new GSAP 3 features with ScrollTrigger plugin.
 
-## 
+##
 
 ![Website screen](https://raw.githubusercontent.com/cirocki/Barbershop-Landing-Page/master/src/img/Sweeney%20Todd%20Barber%20Website.jpg)
 
