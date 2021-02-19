@@ -18,6 +18,11 @@ A bit of fun with pseudo-elements and absolute positioning. I used some new GSAP
 
 ![Website screen](https://raw.githubusercontent.com/cirocki/Barbershop-Landing-Page/master/src/img/Sweeney%20Todd%20Barber%20Website.jpg)
 
+## Review
+
+Tyler Potts - one of my favourite 'Dev Youtubers' reviews this website live:
+https://youtu.be/_4hTCtSEY2k?t=621
+
 ## Photos
 
 Photos by Thgusstavo Santana, Mídia, David Jakab, Nick Demou, Mitja Juraja from pexels.com.
