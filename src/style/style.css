@@ -227,7 +227,11 @@ picture {
   font-size: 0.875rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none; 
+}
+
+.book-button {
+  color:white;
 }
 
 .hamburger {
@@ -549,9 +553,9 @@ picture {
 }
 
 .about__img:after {
-  content: "L";
+  content: "D";
   font-family: "Georgia", serif;
-  color: gold;
+  color: goldenrod;
   position: absolute;
   display: block;
   top: 300px;
@@ -987,6 +991,8 @@ picture {
 .contact__wrapper {
   display: -ms-grid;
   display: grid;
+  align-items: baseline;
+
   -ms-grid-columns: 3fr 1fr 5fr 1fr 3fr;
       grid-template-columns: 3fr 1fr 5fr 1fr 3fr;
       grid-template-areas: "info . links . hours";

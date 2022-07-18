@@ -1,11 +1,11 @@
 {
-  "name": "sweeney-todd-barbershop-website-project",
+  "name": "mr-moustache-co-website",
   "version": "1.0.0",
-  "description": "Website concept inspired by the musical Sweeney Todd: The Demon Barber of Fleet Street. I wondered how the website of a murderous barber might look like, if he really exist. I also tried to combine the dark, bloody atmosphere with the elegance of London.",
+  "description": "Frontend static site for the Mr. Moustache Company.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marcin Cirocki",
+  "author": "Jonathan Larson",
   "license": "ISC"
 }

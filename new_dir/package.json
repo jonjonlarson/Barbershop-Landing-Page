@@ -1,0 +1,11 @@
+{
+  "name": "mr-moustache-co-website",
+  "version": "1.0.0",
+  "description": "Frontend static site for the Mr. Moustache Company.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Larson",
+  "license": "ISC"
+}
