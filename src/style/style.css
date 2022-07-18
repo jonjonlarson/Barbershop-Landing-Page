@@ -208,7 +208,7 @@ picture {
 }
 
 .logo {
-  width: 10rem;
+  width: 25rem;
   cursor: pointer;
 }
 
@@ -231,7 +231,13 @@ picture {
 }
 
 .book-button {
-  color:white;
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: goldenrod;
+  color: #fff;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .hamburger {
@@ -351,7 +357,7 @@ picture {
           transform: rotate(-90deg);
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 1160px) {
   .hamburger {
     display: block;
   }
@@ -894,7 +900,7 @@ picture {
   color: gold;
 }
 
-@media (max-width: 1139px) {
+@media (max-width: 939px) {
   .products {
     margin: 0;
   }
@@ -917,9 +923,10 @@ picture {
   }
 }
 
-@media (max-width: 1139px) {
+@media (max-width: 939px) {
   .products {
     padding: 4rem 0;
+    margin-bottom: 17.5rem;
   }
   .products__img {
     padding: 4rem 0;
@@ -930,7 +937,7 @@ picture {
 6.0 BANNER
 --------------------------------------------------------------*/
 .banner {
-  background: url(../img/london-barber.jpg) center;
+  background: url(../img/alley-barber.jpg) center;
   background-size: cover;
 }
 
@@ -962,9 +969,9 @@ picture {
 }
 
 @media (max-width: 939px) {
-  .banner-title {
-    padding-bottom: 1rem;
-    font-size: 2.5rem;
+  .banner-title,
+  .banner-subtitle{
+    display: none;
   }
 }
 
@@ -1038,7 +1045,7 @@ picture {
 }
 
 .contact-logo {
-  max-width: 10rem;
+  max-width: 25rem;
   padding-bottom: 3rem;
 }
 
