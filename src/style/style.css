@@ -212,6 +212,12 @@ picture {
   cursor: pointer;
 }
 
+@media (max-width: 515px) {
+  .logo{
+    width: 15rem;
+  }
+}
+
 .navbar-item {
   display: inline;
   margin: 0 2.5rem;
@@ -357,7 +363,7 @@ picture {
           transform: rotate(-90deg);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1500px) {
   .hamburger {
     display: block;
   }
